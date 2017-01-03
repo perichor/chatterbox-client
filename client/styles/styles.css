@@ -92,4 +92,5 @@ form input[type=text] {
 }
 div.timeline {
     border-style: double;
+    height: 500px;
 }
