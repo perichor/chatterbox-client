@@ -87,4 +87,9 @@ form input[type=text] {
     color: #fff;
     background-color: #0090da;
 }
-
+.textbox {
+    width: 60%;
+}
+div.timeline {
+    border-style: double;
+}

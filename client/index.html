@@ -7,6 +7,7 @@
 
     <!-- dependencies -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
     <script>
       // YOU DO NOT NEED TO EDIT THIS CODE
       if (!/(&|\?)username=/.test(window.location.search)) {
@@ -27,6 +28,13 @@
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
     </div>
-    <div id="chats"></div>
+    <div id="chats">
+      <input class="textbox" type="text" name="textbox">
+      <input class="submit" type="submit" name="submit">
+      <input class="retrieve" type="button" name="retrieve" value="retrieve">
+      <div class="timeline">
+        
+      </div>
+    </div>
   </body>
 </html>
