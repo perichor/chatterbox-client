@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -27,15 +27,20 @@
     <div id="main">
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
-    </div>
-    <div id="chats">
       <input class="roomname" type="text" name="roomname">
       <input class="textbox" type="text" name="textbox">
       <input class="submit" type="submit" name="submit">
       <input class="retrieve" type="button" name="retrieve" value="retrieve">
-      <div class="timeline">
-        
+      <div class="dropdown">
+        <button onclick="app.showRooms()" class="dropbtn">Rooms</button>
+        <div id="roomSelect">
+          <!-- <div>Lobby</div> -->
+          <!-- <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a> -->
+        </div>
       </div>
     </div>
+    <div id="chats"></div>
   </body>
 </html>
